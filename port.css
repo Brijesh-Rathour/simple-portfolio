@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(111, 5, 9);
+  background-image: url(1st.jpg);
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.7); 
+}
+.fst{
+  width:100%;
+  height:80%;
+  display: flex;
+  justify-content: center;
+  background-image: url(bck.jpg);
+  background-size: cover;
+  background-position: center; 
+  position: relative;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 30px;
+}
+.flag{
+  display: flex;
+  justify-content: center;
+  color:#ddd;
+}
+
+.flag img{
+  margin-left: 40px;
+}
+
+.set i{
+  height: 30px;
+  width: 30px;
+}
+
+.header {
+  background-color: rgb(187, 232, 232);
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.header p{
+  padding-right: 30px;
+}
+
+.head{
+  display:flex;
+  justify-content: center;
+  background-color: rgb(187, 232, 232);
+  border-radius: 30%;
+  margin-left: 40%;
+  margin-right: 40%;
+  
+}
+
+.exp{
+  background-color: rgb(187, 232, 232);
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.exp p{
+  padding-right: 150px;  
+}
+.navbar {
+  position: fixed; 
+  bottom: 10px;
+  left: 50%;
+  z-index: 10;
+  transform: translateX(-50%);
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #ddd;
+  color: rgba(21, 173, 194, 0.582);
+}
+
+.skills{
+  background-color: rgb(187, 232, 232);
+  border-radius: 30px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  margin:60px ;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.bubble {
+  display: inline-block;
+  background-color: rgb(0, 255, 255);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.trainings{
+  background-color: rgb(187, 232, 232);
+  padding: 20px;
+  margin-left: 23%;
+  margin-right: 23%;
+  border-radius: 20px;
+ 
+}
+
+.trainings ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rectangle {
+  background-color: rgb(0, 255, 255);
+  width: 200px; 
+  margin: 0 10px; 
+  border-radius: 20px;
+}
+
+.flag {
+  width: 250px;
+  height: 400px;
+  box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background: #03ccfe;
+  box-shadow: 0 0 10px 5px rgba(4, 171, 243, 0.5);
+}
+.flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid #fff;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+}
+.flag img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.ths{
+  display:flex;
+  justify-content: center;
+  background-color: rgb(187, 232, 232);
+  border-radius: 30%;
+  margin-left: 40%;
+  margin-right: 40%;  
+}
+.about{
+  display:flex;
+  justify-content: center;
+  background-color: rgb(187, 232, 232);
+  border-radius: 30px;  
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.ahd{
+  background-color: rgb(187, 232, 232);
+  border-radius: 30%;    
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
